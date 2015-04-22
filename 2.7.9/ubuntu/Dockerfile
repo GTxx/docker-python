@@ -1,4 +1,4 @@
-FROM dkxx/docker-buildpacks-deps:jessie-buildpack
+FROM dkxx/docker-buildpacks-deps:ubuntu-buildpack
 
 # remove several traces of debian python
 RUN apt-get purge -y python.*
